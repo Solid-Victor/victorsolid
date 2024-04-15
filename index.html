@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Victor</title>
+    <link rel="shortcut icon" href="icon/logo.ico" type="image/x-icon" />
+    <!-- css files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- ===== Style Switcher ===== -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style-switcher.css" />
+  </head>
+  <body>
+    <!-- main container starts -->
+    <main class="color-1">
+      <!-- ===aside start=== -->
+      <aside class="aside">
+        <aside class="aside-content">
+          <div id="nav-toggler">
+            <i class="fas fa-bars"></i>
+          </div>
+
+          <ul class="nav" id="side-nav">
+            <li>
+              <a
+                href="#home"
+                class="navlist active"
+                onclick="removeHidden('home')"
+              >
+                <i class="fa fa-home"></i><span class="span">Home</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" class="navlist" onclick="removeHidden('about')">
+                <i class="fa fa-user"></i><span class="span">About</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="#service"
+                class="navlist"
+                onclick="removeHidden('service')"
+              >
+                <i class="fa fa-list"></i><span class="span">Service</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="#portfolio"
+                class="navlist"
+                onclick="removeHidden('portfolio')"
+              >
+                <i class="fa fa-briefcase"></i
+                ><span class="span">Portfolio</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="navlist"
+                onclick="removeHidden('contact')"
+              >
+                <i class="fa fa-comments"></i
+                ><span class="span">Contact</span></a
+              >
+            </li>
+          </ul>
+        </aside>
+      </aside>
+      <!-- === aside end=== -->
+
+      <!-- === main content start=== -->
+      <mainContent class="main-content">
+        <!-- === home section start === -->
+        <section class="home section" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Hello, my name is <span class="name">Victor Emenike</span>
+                </h3>
+                <h3 class="my-profession">
+                  I' m a <span class="typed-text"></span
+                  ><span class="cursor"> </span>
+                </h3>
+                <p>
+                  I' m a Web Designer with extensive experience for over
+                  <span class="yearsOfExperience"></span> years. My expertise is
+                  to create and design website , graphic design, and many
+                  more...
+                </p>
+                <a
+                  href="#contact"
+                  onclick="removeHidden('contact')"
+                  class="btn hire-me"
+                  >Hire Me</a
+                >
+              </div>
+              <div class="home-img padd-15">
+                <img id="demo" src="image/sss.png" alt="hero image" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- === Home Section End === -->
+
+        <!-- === About Section Start === -->
+        <section class="about section hidden" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-tittle padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>I'm Emenike Victor and <span>Web Developer</span></h3>
+                    <p>
+                      Hey there! I'm a passionate graphic designer and web
+                      developer with a love for crafting beautiful and
+                      functional digital experiences. 🎨💻 <br />
+                      With over <span class="yearsOfExperience"></span>
+                      years of hands-on experience in the field, I've honed my
+                      skills in graphic design (photoshop, CorelDraw), UI/UX
+                      desging (figma), HTML, CSS, JavaScript, React, Node.js and
+                      more. My journey in the world of design and development
+                      began with a curiosity to blend creativity with
+                      technology, and it has been an exhilarating ride ever
+                      since.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <!-- === Personal Info Start === -->
+
+                  <div class="personal-info padd-15">
+                    <!-- === Info Item Row Start === -->
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>Birthday : <span>9 Jan 2002</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Age : <span class="myAge">22</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Website : <span>www.victorsolid.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Email : <span>victorconents@gmail.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Degree : <span>CS</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Phone : <span>+234 81 873 165 87</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>City : <span>Abuja</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Freelance : <span>Available</span></p>
+                      </div>
+                    </div>
+                    <!-- === Info Item Row End === -->
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <a href="#" class="btn">
+                          Download CV <span><i class="fa fa-download"></i></span
+                        ></a>
+                        <a
+                          href="#contact"
+                          onclick="removeHidden('contact')"
+                          class="btn hire-me"
+                          >Hire Me <span><i class="fa fa-hire"></i></span
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- === Personal Info End === -->
+
+                  <!-- === skills Start === -->
+                  <div class="skills padd-15">
+                    <!-- === Skills Row Start === -->
+                    <div class="row">
+                      <div class="skill-item padd-15">
+                        <h5>JS</h5>
+                        <div class="progress">
+                          <div class="progress-in" id="perctage-1"></div>
+                          <div class="skill-percent" id="perctage-1">85%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Node.JS</h5>
+                        <div class="progress">
+                          <div class="progress-in" id="perctage-2"></div>
+                          <div class="skill-percent" id="perctage-2">80%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>HTML / CSS</h5>
+                        <div class="progress">
+                          <div class="progress-in" id="perctage-3"></div>
+                          <div class="skill-percent" id="perctage-3">95%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Tailwind</h5>
+                        <div class="progress">
+                          <div class="progress-in" id="perctage-4"></div>
+                          <div class="skill-percent" id="perctage-4">76%</div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- === Skills Row End === -->
+                  </div>
+                  <!-- === Skills End === -->
+                </div>
+                <!-- === Info Row End === -->
+
+                <!-- === Academic qualification Row start=== -->
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="tittle">Education</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- ===  Timeline Item Start === -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2013 -2015
+                            </h3>
+                            <h4 class="timeline-tittle">
+                              Masters in Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              I hold a Bachelor's degree in Computer Science,
+                              equipping me with a solid foundation in software
+                              development principles and computational
+                              problem-solving. Additionally, my educational
+                              journey includes certifications in graphic design,
+                              where I cultivated my artistic sensibilities and
+                              learned to translate concepts into compelling
+                              visual narratives
+                            </p>
+                          </div>
+                          <!-- === Timeline Item End === -->
+
+                          <!-- ===  Timeline Item Start === -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2013 -2015
+                            </h3>
+                            <h4 class="timeline-tittle">
+                              Masters in Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Error quos quaerat facilis totam
+                              eligendi tenetur earum nam consequuntur eveniet?
+                              Praesentium, saepe laudantium accusantium
+                              blanditiis perferendis ducimus?
+                            </p>
+                          </div>
+                          <!-- === Timeline Item End === -->
+
+                          <!-- ===  Timeline Item Start === -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2013 -2015
+                            </h3>
+                            <h4 class="timeline-tittle">
+                              Masters in Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Error quos quaerat facilis totam
+                              eligendi tenetur earum nam consequuntur eveniet?
+                              Praesentium, saepe laudantium accusantium
+                              blanditiis perferendis ducimus?
+                            </p>
+                          </div>
+                          <!-- === Timeline Item End === -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="experience padd-15">
+                    <h3 class="tittle">Experience</h3>
+
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- ===  Timeline Item Start === -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2013 -2015
+                          </h3>
+                          <h4 class="timeline-tittle">
+                            Masters in Computer Science
+                          </h4>
+                          <p class="timeline-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Error quos quaerat facilis totam eligendi
+                            tenetur earum nam consequuntur eveniet? Praesentium,
+                            saepe laudantium accusantium blanditiis perferendis
+                            ducimus?
+                          </p>
+                        </div>
+                        <!-- === Timeline Item End === -->
+
+                        <!-- ===  Timeline Item Start === -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2013 -2015
+                          </h3>
+                          <h4 class="timeline-tittle">
+                            Masters in Computer Science
+                          </h4>
+                          <p class="timeline-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Error quos quaerat facilis totam eligendi
+                            tenetur earum nam consequuntur eveniet? Praesentium,
+                            saepe laudantium accusantium blanditiis perferendis
+                            ducimus?
+                          </p>
+                        </div>
+                        <!-- === Timeline Item End === -->
+
+                        <!-- ===  Timeline Item Start === -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2013 -2015
+                          </h3>
+                          <h4 class="timeline-tittle">
+                            Masters in Computer Science
+                          </h4>
+                          <p class="timeline-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Error quos quaerat facilis totam eligendi
+                            tenetur earum nam consequuntur eveniet? Praesentium,
+                            saepe laudantium accusantium blanditiis perferendis
+                            ducimus?
+                          </p>
+                        </div>
+                        <!-- === Timeline Item End === -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- === Academic qualification Row End === -->
+            </div>
+          </div>
+        </section>
+        <!-- === About Section End === -->
+
+        <!-- === Service Section Start ==== -->
+
+        <section class="service section hidden" id="service">
+          <div class="container">
+            <div class="row">
+              <div class="section-tittle padd-15">
+                <h2>Services</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- ==== Service Item Start === -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Mobile App Developer</h4>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Fugiat vero iste quidem.
+                  </p>
+                </div>
+              </div>
+              <!-- ==== Service Item End === -->
+              <!-- ==== Service Item Start === -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-laptop-code"></i>
+                  </div>
+                  <h4>Web Developer</h4>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Fugiat vero iste quidem.
+                  </p>
+                </div>
+              </div>
+              <!-- ==== Service Item End === -->
+              <!-- ==== Service Item Start === -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-palette"></i>
+                  </div>
+                  <h4>Web Designer</h4>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Fugiat vero iste quidem.
+                  </p>
+                </div>
+              </div>
+              <!-- ==== Service Item End === -->
+              <!-- ==== Service Item Start === -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-code"></i>
+                  </div>
+                  <h4>Programmer</h4>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Fugiat vero iste quidem.
+                  </p>
+                </div>
+              </div>
+              <!-- ==== Service Item End === -->
+              <!-- ==== Service Item Start === -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                  <h4>Researcher</h4>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Fugiat vero iste quidem.
+                  </p>
+                </div>
+              </div>
+              <!-- ==== Service Item End === -->
+              <!-- ==== Service Item Start === -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-bullhorn"></i>
+                  </div>
+                  <h4>Discovery</h4>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Fugiat vero iste quidem.
+                  </p>
+                </div>
+              </div>
+              <!-- ==== Service Item End === -->
+            </div>
+          </div>
+        </section>
+        <!-- === Service Section End === -->
+
+        <!-- === Portfolio Section Start === -->
+        <section class="portfolio section hidden" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div class="section-tittle padd-15">
+                <h2>Portfolio</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="portfolio-heading padd-15">
+                <h2>My Last Projects:</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- ==== Portfolio Item Start ==== -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img
+                      src="image/image-1.jpg"
+                      alt="portfolio image"
+                      style="height: auto"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Portfolio Item End ==== -->
+              <!-- ==== Portfolio Item Start ==== -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="image/image-2.jpg" alt="portfolio image" />
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Portfolio Item End ==== -->
+              <!-- ==== Portfolio Item Start ==== -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="image/image-3.jpg" alt="portfolio image" />
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Portfolio Item End ==== -->
+              <!-- ==== Portfolio Item Start ==== -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="image/image-4.jpg" alt="portfolio image" />
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Portfolio Item End ==== -->
+              <!-- ==== Portfolio Item Start ==== -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="image/image-5.jpg" alt="portfolio image" />
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Portfolio Item End ==== -->
+              <!-- ==== Portfolio Item Start ==== -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="image/image-6.jpg" alt="portfolio image" />
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Portfolio Item End ==== -->
+            </div>
+          </div>
+        </section>
+        <!-- === Portfolio Section End === -->
+        <!-- === Contact Section Start === -->
+        <section class="contact section hidden" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-tittle padd-15">
+                <h2>Contact</h2>
+              </div>
+            </div>
+            <h3 class="contact-tittle padd-15">Have You Any Questions ?</h3>
+            <h4 class="contact-sub-tittle padd-15">I'M AT YOUR SERVICES</h4>
+            <div class="row">
+              <!-- ==== Contact Info Item start ==== -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call Us On</h4>
+                <p>+234 818 731 6587</p>
+              </div>
+              <!-- ==== Contact Info Item start ==== -->
+              <!-- ==== Contact Info Item end ==== -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>Office</h4>
+                <p>Abuja</p>
+              </div>
+              <!-- ==== Contact Info Item end ==== -->
+              <!-- ==== Contact Info Item start ==== -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>Info@victorsolid.com</p>
+              </div>
+              <!-- ==== Contact Info Item end ==== -->
+              <!-- ==== Contact Info Item start ==== -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4>Website</h4>
+                <p>www.victorsolid.com</p>
+              </div>
+              <!-- ==== Contact Info Item end ==== -->
+            </div>
+            <h3 class="contact-tittle padd-15">SEND ME A MAIL</h3>
+            <h4 class="contact-sub-tittle padd-15">
+              I'M VERY RESPONSIVE TO MESSAGES
+            </h4>
+            <!-- === contact Form === -->
+            <div class="row">
+              <form
+                action="process.php"
+                method="post"
+                class="contact-form padd-15"
+              >
+                <div class="row">
+                  <!-- === form item start === -->
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        name="fullname"
+                        class="form-control"
+                        placeholder="Name"
+                      />
+                    </div>
+                  </div>
+                  <!-- === form item end === -->
+                  <!-- === form item start === -->
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email"
+                      />
+                    </div>
+                  </div>
+                  <!-- === form item end === -->
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input
+                        name="subject"
+                        class="form-control"
+                        id=""
+                        placeholder="subject"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea
+                        name="Message"
+                        class="form-control"
+                        id=""
+                        placeholder="Message"
+                        style="
+                          min-width: 50%;
+                          max-width: 100%;
+                          min-height: 50px;
+                        "
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input type="submit" class="btn" value="Send Message" />
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- === Contact Section end === -->
+      </mainContent>
+      <!-- Main Content End  -->
+    </main>
+    <!-- Main Container End -->
+
+    <!-- ==== style Switcher Start ==== -->
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+
+    <!-- ==== style Switcher End ==== -->
+
+    <!-- js files -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.js" integrity="sha512-ggJ7yQCnXifbDXFFfyNhegaNXkkPMP+0cxMDobX6pABvU4zrqD+NMXxrGoAK9iANboRjpR4ajwWHCCfJXJFpJQ==
+    " crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+   
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+  </body>
+</html>
+
+<!-- elmuax1999 -->
+
+<!-- elmuax1999
+Muazuabdullahi2120 
+application code 06IM2023-90988677
+password: muazu1000@
+Muazu1000@ -->
